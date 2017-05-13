@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Race game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../src/css/reset.css" rel="stylesheet">
+    <link href="../src/css/common.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="canvas-container">
+            <canvas id="mainCanvas" width="600px" height="700px">
+            </canvas>
+        </div>
+        <div class="controlls">
+            <div class="scores">
+                <span>SCORES:</span>
+                <span id="scoresSpan"></span>
+            </div>
+            <div class="lives">
+                <span>LIVES:</span>
+                <span id="livesSpan"></span>
+            </div>
+            <button class="control-btn" id="startBtn">Start</button>
+            <button class="control-btn" id="pauseBtn">Pause</button>
+            <button class="control-btn" id="stopBtn">Stop</button>
+        </div>
+    </div>
+    <script src="../src/js/app.js"></script>
+    <script src="../src/js/workWithDom.js"></script>
+    <script src="../src/js/inherit.js"></script>
+    <script src="../src/js/resourseLoadChecker.js"></script>
+    <script src="../src/js/constants.js"></script>
+    <script src="../src/js/gameObject.js"></script>
+    <script src="../src/js/initGame.js"></script>
+    <script src="../src/js/drawGameScreens.js"></script>
+    <script src="../src/js/keyListener.js"></script>
+    <script src="../src/js/carLogic.js"></script>
+    <script src="../src/js/mapLogic.js"></script>
+    <script src="../src/js/gameLogic.js"></script>
+</body>
+
+</html>
